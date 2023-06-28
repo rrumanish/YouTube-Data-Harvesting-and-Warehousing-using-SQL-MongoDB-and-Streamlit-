@@ -23,65 +23,6 @@ Display data in the Streamlit app: Finally, you can display the retrieved data i
 Overall, this approach involves building a simple UI with Streamlit, retrieving data from the YouTube API, storing it in a MongoDB data lake, migrating it to a SQL data warehouse, querying the data warehouse with SQL, and displaying the data in the Streamlit app.
 
 
- ## (OUTPUT)
-  ## Example After Data Extraction from Youtube to MongoDB :
- 
-{
-    "Channel_Name": {
-        "Channel_Name": "Example Channel",
-        "Channel_Id": "UC1234567890",
-        "Subscription_Count": 10000,
-        "Channel_Views": 1000000,
-        "Channel_Description": "This is an example channel.",
-        "Playlist_Id": "PL1234567890"
-    },
-    "Video_Id_1": {
-        "Video_Id": "V1234567890",
-        "Video_Name": "Example Video 1",
-        "Video_Description": "This is an example video.",
-        "Tags": ["example", "video"],
-        "PublishedAt": "2022-01-01T00:00:00Z",
-        "View_Count": 1000,
-        "Like_Count": 100,
-        "Dislike_Count": 10,
-        "Favorite_Count": 5,
-        "Comment_Count": 20,
-        "Duration": "00:05:00",
-        "Thumbnail": "https://example.com/thumbnail.jpg",
-        "Caption_Status": "Available",
-        "Comments": {
-            "Comment_Id_1": {
-                "Comment_Id": "C1234567890",
-                "Comment_Text": "This is a comment.",
-                "Comment_Author": "Example User",
-                "Comment_PublishedAt": "2022-01-01T00:01:00Z"
-            },
-            "Comment_Id_2": {
-                "Comment_Id": "C2345678901",
-                "Comment_Text": "This is another comment.",
-                "Comment_Author": "Another User",
-                "Comment_PublishedAt": "2022-01-01T00:02:00Z"
-            }
-        }
-    },
-    "Video_Id_2": {
-        "Video_Id": "V2345678901",
-        "Video_Name": "Example Video 2",
-        "Video_Description": "This is another example video.",
-        "Tags": ["example", "video"],
-        "PublishedAt": "2022-01-02T00:00:00Z",
-        "View_Count": 2000,
-        "Like_Count": 200,
-        "Dislike_Count": 20,
-        "Favorite_Count": 10,
-        "Comment_Count": 30,
-        "Duration": "00:10:00",
-        "Thumbnail": "https://example.com/thumbnail.jpg",
-        "Caption_Status": "Not Available",
-        "Comments": {}
-    }
-}
-
 
 #### SQL Query Output need to displayed as table in Streamlit Application:
 
