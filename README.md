@@ -4,10 +4,11 @@
 ## Skills take away From This Project:
 1) Python scripting
 2) Data Collection
-3) MongoDB, Streamlit
-4) API integration
-5) Data Managment using MongoDB (Atlas)
-6) SQL
+3) MongoDB
+4) Streamlit
+5) API integration
+6) Data Managment using MongoDB (Atlas)
+7) SQL
 
 ## Problem Statement 
 The task is to build a Streamlit app that permits users to analyze data from multiple YouTube channels:--
